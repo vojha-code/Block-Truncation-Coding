@@ -1,2 +1,2 @@
-# Block-Truncation-Coding
+# Block-Truncation-Coding (Image compression)
 This is a lossy image compression scheme, in which an image is divided into nonoverlapping blocks of pixels. For each block, threshold and reconstruction values are determined. The threshold is usually the mean of the pixel values in the block. Then a bitmap of the block is derived by replacing all pixels whose values are greater than or equal (less than) to the threshold by a 1 (0). Then for each segment ( a group of 1s and 0s) in the bitmap, the reconstruction value is determined. This is the average of the values of the corresponding pixels in the original block.
